@@ -72,19 +72,29 @@ section .logo{
     padding: 20px ;
 }
 
-section .search-bar{
+.search-bar{
+    width: 40%;
     margin: 10px auto;
     padding: 10px;
     border: 1px solid rgb(226, 222, 222);
     border-radius: 50px;
-    display: inline;
+    display: flex; 
+    justify-content: first baseline;
     color: rgb(196, 194, 194)
 }
 
-.search-bar input{
-    width: 400px;
-    height: 10px;
+.search-icon{
+    padding: 5px 5px 0 10px;
+}
+.search-input{
+    padding: 0 20px;
+    width: 100%;
+}
+.search-input input{
+    width: 100%;
+    height: 24px;
     border: none;
+    /* padding: 0 20px; */
 }
 
 .search-bar:hover{
